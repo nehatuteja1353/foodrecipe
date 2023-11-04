@@ -1,0 +1,430 @@
+body{
+    width:100%;
+    height: 100%;
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+.navbar{
+    top:5px;
+    left: 30px;
+    position:absolute;
+
+}
+
+
+.navbar li{
+  color:white;
+  float:left;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.navbar li a{
+padding: 8px 8px;
+}
+
+
+.main-image{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+#h1{
+    color:white;
+    text-align: center;
+    top:250px;
+    left: 730px;
+    position:absolute;
+    font-size: 30px;
+    background-color: none;
+    transform: translate(-50%,-50%);
+ 
+}
+
+
+.span{
+    font-size: 50px;
+}
+
+
+
+.btn{
+    color: black;
+    border-color: white;
+    border-radius: 5px;
+    position: absolute;
+    padding: 20px 40px 20px 40px;
+    margin: 50px;
+    top: 320px;
+    left: 600px;
+}
+
+
+#p1{
+    text-transform: uppercase;
+    color:white;
+    text-align: center;
+    top:440px;
+    left: 730px;
+    position:absolute;
+    font-size: 20px;
+    transform: translate(-50%,-50%);
+}
+
+#p1 a{
+    color:white;
+   
+}
+
+.icon{
+    margin: 30px 0 30px 0;
+     align-items: center;
+
+
+
+}
+
+
+.icons{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.feature {
+    text-align: center; 
+}
+
+ .feature h2 {
+        display: inline-block;
+        margin: 5px 0 0 0;
+        padding-bottom: 7px;
+        font-size: 18px;
+        font-family: "Lato";
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        border-bottom: 1px solid #ff3333; }
+
+.feature p {
+        font-family: "Lato";
+        color: black; }
+
+
+
+
+
+
+.box{
+    color: white;
+    text-align: center;
+    padding: 150px 50px 150px 50px; 
+    font-size: 20px;
+    height: 50%;
+    width:100%;
+    background: linear-gradient(rgb(0,0,0,0.6), rgb(0,0,0,0.6)), url('sushi.jpg');
+    background-color: palevioletred;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box1 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 25px 0;
+    padding-top: 40px; 
+}
+.box1 h2 span {
+    padding-bottom: 5px;
+    border-bottom: 1px solid red;
+ }
+
+.section{
+text-align: center;
+font-size: 15px;
+padding-top: 20px;
+background-color: white;
+background-repeat: no-repeat;
+height: 100px;
+width:100%;
+background-size: cover;
+}
+
+#cuisines {
+    font-family: "lato";
+
+ }
+
+.container{
+    position:relative;
+    width:100%;
+    height: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: auto;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    background-size: cover;
+}
+
+.italian-cuisine  
+{
+    position: relative;
+    text-align: center;
+}
+
+.italian-cuisine-text
+{
+  
+    color: white;
+    font-size:25px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.indian-cuisine  
+{
+    position: relative;
+    text-align: center;
+}
+
+.indian-cuisine-text
+{
+  
+    color: white;
+    font-size:25px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.french-cuisine  
+{
+    position: relative;
+    text-align: center;
+}
+
+.french-cuisine-text
+{
+  
+    color: white;
+    font-size:25px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.steakhouse-cuisine  
+{
+    position: relative;
+    text-align: center;
+}
+
+.steakhouse-cuisine-text
+{
+  
+    color: white;
+    font-size:25px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.seafood-cuisine  
+{
+    position: relative;
+    text-align: center;
+}
+
+.seafood-cuisine-text
+{
+  
+    color: white;
+    font-size:25px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+ 
+       
+         
+      
+
+
+
+.container2{
+    position:relative;
+    width:100%;
+    height: 100%;
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    background-size: cover
+   
+}
+     
+
+.sushi-cuisine  
+{
+    position: relative;
+    text-align: center;
+}
+
+.sushi-cuisine-text
+{
+  
+    color: white;
+    font-size:25px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.mexican-cuisine  
+{
+    position: relative;
+    text-align: center;
+}
+
+.mexican-cuisine-text
+{
+  
+    color: white;
+    font-size:25px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.chinese-cuisine  
+{
+    position: relative;
+    text-align: center;
+}
+
+.chinese-cuisine-text
+{
+  
+    color: white;
+    font-size:25px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.pizza-cuisine  
+{
+    position: relative;
+    text-align: center;
+}
+
+.pizza-cuisine-text
+{
+  
+    color: white;
+    font-size:25px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+.american-cuisine  
+{
+    position: relative;
+    text-align: center;
+}
+
+.american-cuisine-text
+{
+  
+    color: white;
+    font-size:25px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+
+
+
+#statistics{
+    background-color: #fff;
+    font-size: 34px;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.statistics{
+    margin:auto;
+    font-size:20px;
+    left: 20px;
+    padding-left: 20px;
+}
+.div p{
+font-size: 20px;
+
+}
+
+
+.pan{
+    display: flex;
+    float: right;
+    padding-left: 100px;
+}
